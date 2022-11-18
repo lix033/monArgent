@@ -1,0 +1,50 @@
+
+
+.titre{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.txt1{
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#items{
+    position: absolute;
+    border: 5px solid rgb(160, 151, 151);
+    border-radius: 10px;
+    width: 320px;
+    height: auto;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    margin: 10px;
+}
+
+#envoyer{
+   position: relative;
+   margin-left: 40%;
+}
+
+.saisiezone{
+    outline: none;
+    border: 1px solid rgb(221, 215, 215);
+    /* border-bottom: 1px solid rgb(100, 96, 96); */
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#montant{
+    color: brown;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 10px black;
+}
+
+
