@@ -1,5 +1,6 @@
 <?php
 require('config/insertDepenses.php');
+require('config/reqDepenses.php');
 ?>
 
 <!DOCTYPE html>
@@ -18,16 +19,16 @@ require('config/insertDepenses.php');
             <div class="date"></div><br>
             <div class="infoDep">
                 <div class="depensesJour">
-                    <p>aujourd'hui: <span class="montant">0</span> CFA</p>
+                    <p>aujourd'hui: <span class="montant"><?=$responseD?></span> CFA</p>
                 </div>
                 <div class="depensesMois">
-                    <p>ce mois: <span class="montant">0</span> CFA</p>
+                    <p>ce mois: <span class="montant"><?=$responseM?></span> CFA</p>
                 </div>
                 <div class="depensesAnnee mb-3">
                     <p>cette année <span class="montant">0</span> CFA</p>
                 </div>
                 <div class="depensesAnnee mb-3">
-                    <p>Moyenne dépenses <span class="montant">0</span> CFA</p>
+                    <p>Moyenne dépenses <span class="montant"><?=$responseAvg?></span> CFA</p>
                 </div>
                 <div class="message">
                 <?php 
